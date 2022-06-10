@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - imprime el alphabeto en minusculas
+ * print_alphabet_x10 - imprime el alphabeto en minusculas
  * Return: On success 0.
  * On error, -1 is returned, and errno is set appropriately.
  */
