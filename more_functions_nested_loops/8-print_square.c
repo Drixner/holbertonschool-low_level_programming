@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - Write a function that draws a diagonal line on the terminal
- *size : space square
+ *print_square - Write a function that prints a square, followed by a new line
+ *@size : space square
  */
 void print_square(int size)
 {
