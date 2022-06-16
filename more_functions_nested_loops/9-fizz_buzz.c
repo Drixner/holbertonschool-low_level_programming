@@ -1,8 +1,8 @@
 #include "stdio.h"
 
 /**
- *main - i
- *@size : space square
+ * main - funciòn principal
+ *
  */
 int main(void)
 {
@@ -23,5 +23,5 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
-return(0);
+	return (0);
 }
