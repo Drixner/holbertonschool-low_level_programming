@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - Write a function that prints a triangle, followed by a new line.
+ * print_triangle - Write a function that prints a triangle
  * @size : varible de espacio.
  * Description: factores multiples.
  * Return: 0
