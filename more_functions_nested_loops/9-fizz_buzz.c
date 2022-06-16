@@ -1,8 +1,9 @@
 #include "stdio.h"
 
 /**
- * main - funciòn principal
- *
+ * main - funiciòn principal para fizz y buzz
+ * Description: factores multiples.
+ * Return: 0
  */
 int main(void)
 {
@@ -23,5 +24,6 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
+
 	return (0);
 }
