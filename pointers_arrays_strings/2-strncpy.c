@@ -2,9 +2,10 @@
 
 /**
  * _strncpy - función que permite copiar de un recursos.
- * @dest; array de destino.
+ * @dest: array de destino.
  * @src: recurso.
  * @n: indice del cual se copiará
+ * Return: (value)
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -18,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[x] = src[x];
 		x++;
 	}
-	for ( ;x < n; x++)
+	for (; x < n; x++)
 	{
 		dest[x] = '\0';
 	}
