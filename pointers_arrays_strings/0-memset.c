@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * *_memset - permite evuluar
- * @s:constante 
- * @b: el valor
- * @n: numeros de elementos.
+ * @s: Constante
+ * @b: El valor
+ * @n: Numeros de elementos
+ * Return: s[]
  */
 
 char *_memset(char *s, char b, unsigned int n)
