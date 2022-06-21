@@ -10,4 +10,10 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int halp(int x, int i);
+int is_prime_number(int n);
+int _sqrt(int x, int i);
+int hai(int n, int d);
+int is_prime_number(int n);
+int _sqrt(int x, int i);
+int hai(int n, int d);
 #endif
