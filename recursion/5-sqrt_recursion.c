@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * -sqrt_recursoion - raiz cuadrada
+ * _sqrt_recursion - raiz cuadrada a trabajar.
  * @n: numero entero a operar
- * @Return: si no es raiz cuadra natarul devuelve -1
+ * Return: si no es raiz cuadra natarul devuelve -1
  */
 
 int _sqrt_recursion(int n)
@@ -12,8 +12,9 @@ int _sqrt_recursion(int n)
 }
 /**
  * halp - funcion que permite resolver
- * @x: determina la raiz cuadrada 
+ * @x: determina la raiz cuadrada
  * @i: integrador
+ * Return: -1
  */
 
 int halp(int x, int i)
