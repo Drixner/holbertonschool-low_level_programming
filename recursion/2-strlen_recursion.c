@@ -2,8 +2,9 @@
 /**
  * _strlen_recursion - funcion to string
  * @s: valor del string
- *
+ * Return: _strlen_recursion
  */
+
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
