@@ -3,7 +3,7 @@
 /**
  * malloc_checked - alojar memoria usando malloc.
  * @b: unsingned int memory size to allocate
- * Return: 92
+ * Return: 98
  *
  */
 void *malloc_checked(unsigned int b)
