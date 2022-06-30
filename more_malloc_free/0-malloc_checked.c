@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * malloc_checked - alojar memoria usando malloc.
  * @b: unsingned int memory size to allocate
