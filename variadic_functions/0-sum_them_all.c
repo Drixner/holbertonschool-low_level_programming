@@ -14,13 +14,13 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n == 0) /*validando*/
 		return (0);
-	suma = 0;
+	sum = 0;
 	va_start(numbers, n);
 
 	/* integrando */
 
 	for (i = 0; i < n; i++)
-		suma += va_arg(numers, int);
+		sum += va_arg(numers, int);
 	va_end(valist);
 
 	return (sum);
