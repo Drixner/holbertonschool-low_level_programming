@@ -6,7 +6,7 @@
  * @n: cantidad de numeros (entero)
  * Return: 0 is n is 0 or return sum
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list numbers;
 	int sum;
