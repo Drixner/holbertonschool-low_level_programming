@@ -20,8 +20,8 @@ int sum_them_all(const unsigned int n, ...)
 	/* integrando */
 
 	for (i = 0; i < n; i++)
-		sum += va_arg(numers, int);
-	va_end(valist);
+		sum += va_arg(numbers, int);
+	va_end(numbers);
 
 	return (sum);
 }
