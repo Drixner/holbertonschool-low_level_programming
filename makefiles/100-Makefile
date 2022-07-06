@@ -1,22 +1,15 @@
-# make -f 100 Makefile executable deletes and recompilation 
-
-CC = gcc
-OBJ = $(SRC:.c=.o)
-NAME = school
+#Makefile using variables and rules
 SRC = main.c school.c
+CC = gcc
+OBJ = $(SRC:%.c=%.o)
+NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
-
 .PHONY: all clean oclean fclean re
-
+all: m.h  $(OBJ)
+	$(CC) $(OBJ)  -o $(NAME)
 clean:
 	$(RM) *~ $(NAME)
-
-all: m.h $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
-
-fclean:clean oclean
-
 oclean:
 	$(RM) $(OBJ)
-
+fclean: clean oclean
 re: oclean all
