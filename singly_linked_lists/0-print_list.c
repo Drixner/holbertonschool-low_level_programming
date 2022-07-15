@@ -4,7 +4,7 @@
 
 /**
  * print_list - singly linked list
- * @h: pointer 
+ * @h: pointer
  */
 
 size_t print_list(const list_t *h)
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h)
 		current = current->next;
 		c++;
 	}
-	return(c);
+	return (c);
 }
