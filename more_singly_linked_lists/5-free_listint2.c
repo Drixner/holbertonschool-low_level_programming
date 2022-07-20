@@ -1,25 +1,20 @@
 #include "lists.h"
-
 /**
- * pop_listint - pops off the head of the list and returns its contents
- * @head: head of the list
- * Return: contents of head
+ * free_listint2 - frees a listint_t list
+ * @head: double pointer to head of list
  */
-int pop_listint(listint_t **head)
+void free_listint2(listint_t **head)
 {
-	int i;
-	listint_t *current, *tmp;
+	listint_t *temp, *current;
 
 	if (head == NULL)
-		return (0);
-	tmp = current = *head;
-	if (*head)
+		return;
+	current = *head;
+	while (current != NULL)
 	{
-		i = current->n;
-		*head = current->next;
-		free(tmp);
+		temp = current;
+		current = current->next;
+		free(temp);
 	}
-	else
-		i = 0;
-	return (i);
+	*head = NULL;
 }
